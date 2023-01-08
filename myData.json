@@ -1,0 +1,11 @@
+{
+    "HeadlineData": {
+        "text": {
+            "primaryText": "Primary text from datasource",
+            "secondaryText": "Secondary text from datasource"
+        },
+        "image": {
+            "someImageURL": "WeCouldHaveAnImageURLHereIfWeUsedIt.jpg"
+        }
+    }
+}

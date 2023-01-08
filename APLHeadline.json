@@ -1,0 +1,32 @@
+{
+    "type": "APL",
+    "version": "2022.1",
+    "license": "Copyright 2021 Amazon.com",
+    "theme": "dark",
+    "import": [
+        {
+            "name": "alexa-layouts",
+            "version": "1.6.0"
+        }
+    ],
+    "mainTemplate": {
+        "parameters": [
+            "payload"
+        ],
+        "item": [
+            {
+                "type": "AlexaHeadline",
+                "id": "PlantHeadline",
+                "primaryText": "primaryText",
+                "secondaryText": "secondaryText",
+                "headerBackButton": false,
+                "headerAttributionPrimacy": true,
+                "footerHintText": "footerHintText",
+                "backgroundColor": "@colorRed800",
+                "backgroundColorOverlay": false,
+                "headerTitle": "headerTitle",
+                "headerSubtitle": "subtitle"
+            }
+        ]
+    }
+}
